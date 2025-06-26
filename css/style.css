@@ -238,12 +238,12 @@ body {
     align-items: center;
 }
 
-.right-caption {
+.roocket-caption {
     display: flex;
     align-items: center;
 }
 
-.right-caption h2 {
+.roocket-caption h2 {
     padding: 5px;
     font-family: ExtraBold;
 }
@@ -417,4 +417,30 @@ body {
 
 .learn-post p{
     color: #817f7f;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.right-about p{
+    color: #939292;
+}
+
+.left-about{
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.left-about p{
+    text-align: center;
+}
+
+.person-info{
+    background-color: white;
 }
