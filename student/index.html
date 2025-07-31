@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="container">
+            <div class="topmenu">
+                <div class="left-topmenu">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+                <div class="right-topmenu">
+                    <ul>
+                        <li><a href="#">فارسی <i class="fa-solid fa-earth-americas"></i></a></li>
+                        <li><a href="#">پشتیبانی <i class="fa-solid fa-microphone"></i></a></li>
+                        <li><a href="#">شغل ها <i class="fa-solid fa-list"></i></a></li>
+                        <li><a href="#">وبلاگ <i class="fa-solid fa-file"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="info-logo">
+            <div class="info">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-message"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-location-dot"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-phone"></i></a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <a href="#">
+                    <h1>دانشجویان کامپیوتر</h1>
+                    <div class="img-logo">
+                        <img src="img/students-logo.png">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="container">
+            <div class="left-search">
+                <form action="">
+                    <input type="search" placeholder="عبارت مورد نظر را وارد کنید">
+                    <i class="fa-solid fa-search"></i>
+                </form>
+            </div>
+            <div class="right-menu">
+                <ul>
+                    <li><a href="#">درباره ما</a>
+                        <ul class="submenu">
+                            <li><a href="#">گزینه 1</a></li>
+                            <li><a href="#">گزینه 2</a></li>
+                            <li><a href="#">گزینه 3</a></li>
+                            <li><a href="#">گزینه 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">تماس با ما</a>
+                        <ul class="submenu">
+                            <li><a href="#">گزینه 1</a></li>
+                            <li><a href="#">گزینه 2</a></li>
+                            <li><a href="#">گزینه 3</a></li>
+                            <li><a href="#">گزینه 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">تیم متخصص ما</a>
+                        <ul class="submenu">
+                            <li><a href="#">گزینه 1</a></li>
+                            <li><a href="#">گزینه 2</a></li>
+                            <li><a href="#">گزینه 3</a></li>
+                            <li><a href="#">گزینه 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">پروژه های ما</a>
+                        <ul class="submenu">
+                            <li><a href="#">گزینه 1</a></li>
+                            <li><a href="#">گزینه 2</a></li>
+                            <li><a href="#">گزینه 3</a></li>
+                            <li><a href="#">گزینه 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">چشم انداز</a>
+                        <ul class="submenu">
+                            <li><a href="#">گزینه 1</a></li>
+                            <li><a href="#">گزینه 2</a></li>
+                            <li><a href="#">گزینه 3</a></li>
+                            <li><a href="#">گزینه 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">آزمایشی</a>
+                        <ul class="submenu">
+                            <li><a href="#">گزینه 1</a></li>
+                            <li><a href="#">گزینه 2</a></li>
+                            <li><a href="#">گزینه 3</a></li>
+                            <li><a href="#">گزینه 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">خانه</a>
+                        <ul class="submenu">
+                            <li><a href="#">گزینه 1</a></li>
+                            <li><a href="#">گزینه 2</a></li>
+                            <li><a href="#">گزینه 3</a></li>
+                            <li><a href="#">گزینه 4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide slide">
+                <a href="#">
+                    <img src="img/slider.webp">
+                </a>
+            </div>
+            <div class="swiper-slide slide">
+                <a href="#">
+                    <img src="img/slider 2.gif">
+                </a>
+            </div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+    <div class="container">
+        <div class="second-menu">
+            <ul>
+                <li><a href="#">آخرین دانلود ها</a></li>
+                <li><a href="#">آخرین مطلب</a></li>
+                <li><a href="#">همه مطلب ها</a></li>
+            </ul>
+        </div>
+        <div class="posts">
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-image">
+                    <img src="img/pasta.jpeg">
+                    <p>۳ مدل طرز تهیه پاستا اسفناج؛ فوری و خوشمزه</p>
+                </div>
+                <div class="post-info">
+                    <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                    <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                    <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="down-posts">
+        <div class="second-menu-2">
+            <div class="container">
+                <ul>
+                    <li><a href="#">داغ ترین مطالب</a></li>
+                    <li><a href="#">پر بازدید ترین مطالب</a></li>
+                    <li><a href="#">محبوب ترین مطالب</a></li>
+                    <li><a href="#">پربازدید ترین دانلود ها </a></li>
+                    <li><a href="#">بیشترین دانلود ها</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="last-posts">
+            <div class="container">
+                <div class="last-post">
+                    <div class="last-post-image">
+                        <img src="img/vitamin.jpg">
+                        <p>۳ بهترین ویتامین برای چاقی صورت</p>
+                    </div>
+                    <div class="last-post-info">
+                        <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                        <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                        <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                    </div>
+                </div>
+                <div class="last-post">
+                    <div class="last-post-image">
+                        <img src="img/vitamin.jpg">
+                        <p>۳ بهترین ویتامین برای چاقی صورت</p>
+                    </div>
+                    <div class="last-post-info">
+                        <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                        <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                        <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                    </div>
+                </div>
+                <div class="last-post">
+                    <div class="last-post-image">
+                        <img src="img/vitamin.jpg">
+                        <p>۳ بهترین ویتامین برای چاقی صورت</p>
+                    </div>
+                    <div class="last-post-info">
+                        <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                        <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                        <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                    </div>
+                </div>
+                <div class="last-post">
+                    <div class="last-post-image">
+                        <img src="img/vitamin.jpg">
+                        <p>۳ بهترین ویتامین برای چاقی صورت</p>
+                    </div>
+                    <div class="last-post-info">
+                        <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                        <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                        <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                    </div>
+                </div>
+                <div class="last-post">
+                    <div class="last-post-image">
+                        <img src="img/vitamin.jpg">
+                        <p>۳ بهترین ویتامین برای چاقی صورت</p>
+                    </div>
+                    <div class="last-post-info">
+                        <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                        <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                        <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                    </div>
+                </div>
+                <div class="last-post">
+                    <div class="last-post-image">
+                        <img src="img/vitamin.jpg">
+                        <p>۳ بهترین ویتامین برای چاقی صورت</p>
+                    </div>
+                    <div class="last-post-info">
+                        <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                        <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                        <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                    </div>
+                </div>
+                <div class="last-post">
+                    <div class="last-post-image">
+                        <img src="img/vitamin.jpg">
+                        <p>۳ بهترین ویتامین برای چاقی صورت</p>
+                    </div>
+                    <div class="last-post-info">
+                        <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                        <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                        <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                    </div>
+                </div>
+                <div class="last-post">
+                    <div class="last-post-image">
+                        <img src="img/vitamin.jpg">
+                        <p>۳ بهترین ویتامین برای چاقی صورت</p>
+                    </div>
+                    <div class="last-post-info">
+                        <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                        <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                        <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                    </div>
+                </div>
+                <div class="last-post">
+                    <div class="last-post-image">
+                        <img src="img/vitamin.jpg">
+                        <p>۳ بهترین ویتامین برای چاقی صورت</p>
+                    </div>
+                    <div class="last-post-info">
+                        <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                        <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                        <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                    </div>
+                </div>
+                <div class="last-post">
+                    <div class="last-post-image">
+                        <img src="img/vitamin.jpg">
+                        <p>۳ بهترین ویتامین برای چاقی صورت</p>
+                    </div>
+                    <div class="last-post-info">
+                        <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                        <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                        <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                    </div>
+                </div>
+                <div class="last-post">
+                    <div class="last-post-image">
+                        <img src="img/vitamin.jpg">
+                        <p>۳ بهترین ویتامین برای چاقی صورت</p>
+                    </div>
+                    <div class="last-post-info">
+                        <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                        <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                        <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                    </div>
+                </div>
+                <div class="last-post">
+                    <div class="last-post-image">
+                        <img src="img/vitamin.jpg">
+                        <p>۳ بهترین ویتامین برای چاقی صورت</p>
+                    </div>
+                    <div class="last-post-info">
+                        <span><i class="fa-solid fa-thumbs-up"></i> 1950</span>
+                        <span><i class="fa-solid fa-person"></i> نام مدرس</span>
+                        <span><i class="fa-solid fa-clock"></i> 04/02/17</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="logo-2">
+            <a href="#">
+                <h1>دانشجویان کامپیوتر</h1>
+                <div class="img-logo-2">
+                    <img src="img/students-logo.png">
+                </div>
+            </a>
+        </div>
+        <div class="informations">
+            <div class="container">
+                <div class="information">
+                    <div class="information-image">
+                        <img src="img/iphone.webp" alt="">
+                    </div>
+                    <h2>نام اعضای تیم </h2>
+                    <p>توسعه دهنده وب</p>
+                    <div class="information-icons">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="information">
+                    <div class="information-image">
+                        <img src="img/iphone.webp" alt="">
+                    </div>
+                    <h2>نام اعضای تیم </h2>
+                    <p>توسعه دهنده وب</p>
+                    <div class="information-icons">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="information">
+                    <div class="information-image">
+                        <img src="img/iphone.webp" alt="">
+                    </div>
+                    <h2>نام اعضای تیم </h2>
+                    <p>توسعه دهنده وب</p>
+                    <div class="information-icons">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="information">
+                    <div class="information-image">
+                        <img src="img/iphone.webp" alt="">
+                    </div>
+                    <h2>نام اعضای تیم </h2>
+                    <p>توسعه دهنده وب</p>
+                    <div class="information-icons">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
